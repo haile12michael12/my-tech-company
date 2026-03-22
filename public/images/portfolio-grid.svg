@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="portfolioGrid" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366F1"/>
+      <stop offset="50%" style="stop-color:#3B82F6"/>
+      <stop offset="100%" style="stop-color:#06B6D4"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="900" fill="#0F172A"/>
+  
+  <!-- Grid Lines -->
+  <g stroke="#3B82F6" stroke-width="1" opacity="0.2">
+    <path d="M0 0 V900 M200 0 V900 M400 0 V900 M600 0 V900 M800 0 V900 M1000 0 V900 M1200 0 V900"/>
+    <path d="M0 0 H1200 M0 150 H1200 M0 300 H1200 M0 450 H1200 M0 600 H1200 M0 750 H1200 M0 900 H1200"/>
+  </g>
+  
+  <!-- Project Tile 1 -->
+  <g transform="translate(100, 100)">
+    <rect width="280" height="200" rx="12" fill="#1E293B"/>
+    <rect x="20" y="20" width="240" height="120" rx="8" fill="url(#portfolioGrid)" opacity="0.3"/>
+    <rect x="40" y="160" width="180" height="10" rx="5" fill="#475569"/>
+    <rect x="40" y="180" width="120" height="6" rx="3" fill="#64748B"/>
+  </g>
+  
+  <!-- Project Tile 2 -->
+  <g transform="translate(410, 100)">
+    <rect width="280" height="200" rx="12" fill="#1E293B"/>
+    <rect x="20" y="20" width="240" height="120" rx="8" fill="url(#portfolioGrid)" opacity="0.25"/>
+    <circle cx="140" cy="80" r="40" fill="url(#portfolioGrid)" opacity="0.2"/>
+    <rect x="40" y="160" width="180" height="10" rx="5" fill="#475569"/>
+    <rect x="40" y="180" width="120" height="6" rx="3" fill="#64748B"/>
+  </g>
+  
+  <!-- Project Tile 3 -->
+  <g transform="translate(720, 100)">
+    <rect width="280" height="200" rx="12" fill="#1E293B"/>
+    <rect x="20" y="20" width="240" height="120" rx="8" fill="url(#portfolioGrid)" opacity="0.3"/>
+    <path d="M140 40 L170 100 L110 100 Z" fill="url(#portfolioGrid)" opacity="0.2"/>
+    <rect x="40" y="160" width="180" height="10" rx="5" fill="#475569"/>
+    <rect x="40" y="180" width="120" height="6" rx="3" fill="#64748B"/>
+  </g>
+  
+  <!-- Project Tile 4 -->
+  <g transform="translate(100, 330)">
+    <rect width="280" height="200" rx="12" fill="#1E293B"/>
+    <rect x="20" y="20" width="240" height="120" rx="8" fill="url(#portfolioGrid)" opacity="0.2"/>
+    <rect x="60" y="50" width="160" height="60" rx="8" fill="url(#portfolioGrid)" opacity="0.25"/>
+    <rect x="40" y="160" width="180" height="10" rx="5" fill="#475569"/>
+    <rect x="40" y="180" width="120" height="6" rx="3" fill="#64748B"/>
+  </g>
+  
+  <!-- Project Tile 5 -->
+  <g transform="translate(410, 330)">
+    <rect width="280" height="200" rx="12" fill="#1E293B"/>
+    <rect x="20" y="20" width="240" height="120" rx="8" fill="url(#portfolioGrid)" opacity="0.3"/>
+    <line x1="60" y1="50" x2="220" y2="50" stroke="url(#portfolioGrid)" stroke-width="3" stroke-linecap="round"/>
+    <line x1="60" y1="80" x2="220" y2="80" stroke="url(#portfolioGrid)" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+    <line x1="60" y1="110" x2="160" y2="110" stroke="url(#portfolioGrid)" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+    <rect x="40" y="160" width="180" height="10" rx="5" fill="#475569"/>
+    <rect x="40" y="180" width="120" height="6" rx="3" fill="#64748B"/>
+  </g>
+  
+  <!-- Project Tile 6 -->
+  <g transform="translate(720, 330)">
+    <rect width="280" height="200" rx="12" fill="#1E293B"/>
+    <rect x="20" y="20" width="240" height="120" rx="8" fill="url(#portfolioGrid)" opacity="0.25"/>
+    <polygon points="140,50 160,90 120,90" fill="url(#portfolioGrid)" opacity="0.2"/>
+    <rect x="40" y="160" width="180" height="10" rx="5" fill="#475569"/>
+    <rect x="40" y="180" width="120" height="6" rx="3" fill="#64748B"/>
+  </g>
+  
+  <!-- Project Tile 7 -->
+  <g transform="translate(100, 560)">
+    <rect width="280" height="200" rx="12" fill="#1E293B"/>
+    <rect x="20" y="20" width="240" height="120" rx="8" fill="url(#portfolioGrid)" opacity="0.3"/>
+    <circle cx="140" cy="80" r="35" fill="none" stroke="url(#portfolioGrid)" stroke-width="2"/>
+    <rect x="40" y="160" width="180" height="10" rx="5" fill="#475569"/>
+    <rect x="40" y="180" width="120" height="6" rx="3" fill="#64748B"/>
+  </g>
+  
+  <!-- Project Tile 8 -->
+  <g transform="translate(410, 560)">
+    <rect width="280" height="200" rx="12" fill="#1E293B"/>
+    <rect x="20" y="20" width="240" height="120" rx="8" fill="url(#portfolioGrid)" opacity="0.2"/>
+    <rect x="70" y="50" width="100" height="60" rx="6" fill="url(#portfolioGrid)" opacity="0.25"/>
+    <rect x="40" y="160" width="180" height="10" rx="5" fill="#475569"/>
+    <rect x="40" y="180" width="120" height="6" rx="3" fill="#64748B"/>
+  </g>
+  
+  <!-- Project Tile 9 -->
+  <g transform="translate(720, 560)">
+    <rect width="280" height="200" rx="12" fill="#1E293B"/>
+    <rect x="20" y="20" width="240" height="120" rx="8" fill="url(#portfolioGrid)" opacity="0.3"/>
+    <path d="M100 60 Q140 40 180 60 Q200 80 180 100 Q140 120 100 100 Q80 80 100 60" fill="none" stroke="url(#portfolioGrid)" stroke-width="2"/>
+    <rect x="40" y="160" width="180" height="10" rx="5" fill="#475569"/>
+    <rect x="40" y="180" width="120" height="6" rx="3" fill="#64748B"/>
+  </g>
+  
+  <!-- Central Showcase Circle -->
+  <g transform="translate(600, 800)">
+    <circle r="70" fill="url(#portfolioGrid)" opacity="0.2"/>
+    <circle r="50" fill="none" stroke="url(#portfolioGrid)" stroke-width="3"/>
+    <path d="M-20 -10 L20 0 L-20 10 Z" fill="url(#portfolioGrid)"/>
+  </g>
+  
+  <!-- Floating Particles -->
+  <circle cx="100" cy="50" r="5" fill="url(#portfolioGrid)" opacity="0.6"/>
+  <circle cx="1100" cy="50" r="5" fill="url(#portfolioGrid)" opacity="0.6"/>
+  <circle cx="100" cy="850" r="5" fill="url(#portfolioGrid)" opacity="0.6"/>
+  <circle cx="1100" cy="850" r="5" fill="url(#portfolioGrid)" opacity="0.6"/>
+</svg>

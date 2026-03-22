@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="serviceCard1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6"/>
+      <stop offset="100%" style="stop-color:#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="serviceCard2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981"/>
+      <stop offset="100%" style="stop-color:#3B82F6"/>
+    </linearGradient>
+    <linearGradient id="serviceCard3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F59E0B"/>
+      <stop offset="100%" style="stop-color:#EF4444"/>
+    </linearGradient>
+    <linearGradient id="serviceCard4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EC4899"/>
+      <stop offset="100%" style="stop-color:#8B5CF6"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="#F8FAFC"/>
+  
+  <!-- Service Card 1: Web Development -->
+  <g transform="translate(50, 50)">
+    <rect width="220" height="140" rx="12" fill="white" stroke="url(#serviceCard1)" stroke-width="2"/>
+    <circle cx="110" cy="50" r="25" fill="url(#serviceCard1)" opacity="0.2"/>
+    <path d="M95 50 L110 65 L135 35" stroke="url(#serviceCard1)" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="30" y="90" width="160" height="8" rx="4" fill="#94A3B8"/>
+    <rect x="30" y="105" width="120" height="6" rx="3" fill="#CBD5E1"/>
+  </g>
+  
+  <!-- Service Card 2: Mobile Development -->
+  <g transform="translate(330, 50)">
+    <rect width="220" height="140" rx="12" fill="white" stroke="url(#serviceCard2)" stroke-width="2"/>
+    <rect x="95" y="30" width="30" height="40" rx="6" fill="url(#serviceCard2)" opacity="0.2" stroke="url(#serviceCard2)" stroke-width="2"/>
+    <circle cx="110" cy="60" r="5" fill="none" stroke="url(#serviceCard2)" stroke-width="2"/>
+    <rect x="30" y="90" width="160" height="8" rx="4" fill="#94A3B8"/>
+    <rect x="30" y="105" width="120" height="6" rx="3" fill="#CBD5E1"/>
+  </g>
+  
+  <!-- Service Card 3: Cloud Services -->
+  <g transform="translate(50, 210)">
+    <rect width="220" height="140" rx="12" fill="white" stroke="url(#serviceCard3)" stroke-width="2"/>
+    <path d="M90 40 Q110 25 130 40 Q145 55 130 70 Q110 85 90 70 Q75 55 90 40" fill="url(#serviceCard3)" opacity="0.2"/>
+    <rect x="30" y="90" width="160" height="8" rx="4" fill="#94A3B8"/>
+    <rect x="30" y="105" width="120" height="6" rx="3" fill="#CBD5E1"/>
+  </g>
+  
+  <!-- Service Card 4: Consulting -->
+  <g transform="translate(330, 210)">
+    <rect width="220" height="140" rx="12" fill="white" stroke="url(#serviceCard4)" stroke-width="2"/>
+    <circle cx="110" cy="50" r="25" fill="url(#serviceCard4)" opacity="0.2"/>
+    <path d="M110 35 L110 65 M95 50 L125 50" stroke="url(#serviceCard4)" stroke-width="2" stroke-linecap="round"/>
+    <rect x="30" y="90" width="160" height="8" rx="4" fill="#94A3B8"/>
+    <rect x="30" y="105" width="120" height="6" rx="3" fill="#CBD5E1"/>
+  </g>
+  
+  <!-- Decorative Elements -->
+  <circle cx="550" cy="350" r="30" fill="url(#serviceCard1)" opacity="0.1"/>
+  <circle cx="50" cy="350" r="20" fill="url(#serviceCard2)" opacity="0.1"/>
+</svg>

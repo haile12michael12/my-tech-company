@@ -57,10 +57,12 @@ export function Header() {
       <div className="container mx-auto px-4 flex items-center justify-between">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2 group">
-          <div className="w-10 h-10 rounded-lg bg-gradient-primary flex items-center justify-center shadow-glow transition-transform group-hover:scale-105">
-            <span className="text-xl font-bold text-primary-foreground">N</span>
-          </div>
-          <span className="text-xl font-bold text-foreground">
+          <img 
+            src="/logo.svg" 
+            alt="NovaTech Logo" 
+            className="w-10 h-10 transition-transform group-hover:scale-105"
+          />
+          <span className="text-xl font-bold text-foreground hidden sm:inline-block">
             Nova<span className="text-primary">Tech</span>
           </span>
         </Link>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <!-- Background Gradient -->
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E3A8A"/>
+      <stop offset="50%" style="stop-color:#3B82F6"/>
+      <stop offset="100%" style="stop-color:#8B5CF6"/>
+    </linearGradient>
+    
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:0.8"/>
+    </linearGradient>
+    
+    <filter id="blurFilter">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3"/>
+    </filter>
+  </defs>
+  
+  <!-- Main Background -->
+  <rect width="1920" height="1080" fill="url(#heroBg)"/>
+  
+  <!-- Abstract Tech Grid Pattern -->
+  <g opacity="0.1">
+    <path d="M0 100 L1920 100 M0 200 L1920 200 M0 300 L1920 300 M0 400 L1920 400 M0 500 L1920 500 M0 600 L1920 600 M0 700 L1920 700 M0 800 L1920 800 M0 900 L1920 900" stroke="#FFFFFF" stroke-width="1"/>
+    <path d="M100 0 L100 1080 M200 0 L200 1080 M300 0 L300 1080 M400 0 L400 1080 M500 0 L500 1080 M600 0 L600 1080 M700 0 L700 1080 M800 0 L800 1080 M900 0 L900 1080 M1000 0 L1000 1080 M1100 0 L1100 1080 M1200 0 L1200 1080 M1300 0 L1300 1080 M1400 0 L1400 1080 M1500 0 L1500 1080 M1600 0 L1600 1080 M1700 0 L1700 1080 M1800 0 L1800 1080" stroke="#FFFFFF" stroke-width="1"/>
+  </g>
+  
+  <!-- Floating Tech Nodes -->
+  <g>
+    <circle cx="200" cy="150" r="60" fill="url(#glow)" filter="url(#blurFilter)" opacity="0.6"/>
+    <circle cx="1700" cy="200" r="80" fill="url(#glow)" filter="url(#blurFilter)" opacity="0.5"/>
+    <circle cx="300" cy="800" r="70" fill="url(#glow)" filter="url(#blurFilter)" opacity="0.5"/>
+    <circle cx="1600" cy="900" r="90" fill="url(#glow)" filter="url(#blurFilter)" opacity="0.6"/>
+    <circle cx="960" cy="540" r="150" fill="url(#glow)" filter="url(#blurFilter)" opacity="0.3"/>
+  </g>
+  
+  <!-- Connection Lines -->
+  <g stroke="#3B82F6" stroke-width="2" opacity="0.3">
+    <line x1="200" y1="150" x2="960" y2="540"/>
+    <line x1="1700" y1="200" x2="960" y2="540"/>
+    <line x1="300" y1="800" x2="960" y2="540"/>
+    <line x1="1600" y1="900" x2="960" y2="540"/>
+  </g>
+  
+  <!-- Central Hexagon Pattern -->
+  <g transform="translate(960, 540)" opacity="0.2">
+    <polygon points="-100,-86.6 0,-173.2 100,-86.6 100,86.6 0,173.2 -100,86.6" fill="none" stroke="#3B82F6" stroke-width="3"/>
+    <polygon points="-50,-43.3 0,-86.6 50,-43.3 50,43.3 0,86.6 -50,43.3" fill="none" stroke="#8B5CF6" stroke-width="2"/>
+    <circle r="30" fill="url(#glow)"/>
+  </g>
+  
+  <!-- Data Stream Lines -->
+  <g stroke="#8B5CF6" stroke-width="1" opacity="0.4">
+    <path d="M0 300 Q480 250 960 300 T1920 300" fill="none"/>
+    <path d="M0 400 Q480 350 960 400 T1920 400" fill="none"/>
+    <path d="M0 680 Q480 730 960 680 T1920 680" fill="none"/>
+    <path d="M0 780 Q480 830 960 780 T1920 780" fill="none"/>
+  </g>
+</svg>
